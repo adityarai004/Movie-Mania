@@ -21,10 +21,6 @@ public class MovieActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
-//        Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         activityMovieBinding = DataBindingUtil.setContentView(this, R.layout.activity_movie);
 
         Intent i = getIntent();

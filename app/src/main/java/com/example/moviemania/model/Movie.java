@@ -273,6 +273,5 @@ public class Movie extends BaseObservable implements Parcelable {
         this.adult = ((Boolean) in.readValue((Boolean.class.getClassLoader())));
         this.overview = ((String) in.readValue((String.class.getClassLoader())));
         this.releaseDate = ((String) in.readValue((String.class.getClassLoader())));
-
     }
 }
